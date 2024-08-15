@@ -3,6 +3,7 @@
   
 *{
     
+color: rgb(255, 255, 255); 
 }
 /* shared-conatiner */
 .btn-primary{
@@ -18,12 +19,12 @@ margin-top: 28px;
 }
 
 /* header-section */
+
 nav{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     
     width: 1440px;
-   
-height: 719px; 
+   height: 719px; 
 border: 2px solid yellowgreen;
 }
 a{
@@ -37,8 +38,8 @@ a{
     justify-content: space-between;
     width: 1060px;
     height: 46px;
-    border: 2px solid thistle;
-    margin: 57px 190px 30px 190px;
+    /* border: 2px solid thistle; */
+    margin: 57px 190px 57px 190px;
     align-items: center;
     color: rgb(255, 255, 255);
 
@@ -54,7 +55,8 @@ flex-direction: row;
     justify-content: center;
     gap: 47px;
    color: rgb(255, 255, 255);
-    border: 1px solid salmon ;
+    /* border: 1px solid salmon ; */
+    border-radius: 39px;
 }
 #aa{
     color: rgb(230, 83, 60);
@@ -64,34 +66,39 @@ font-size: 36px;
 font-weight: 800;
 }
 #bb{
-    padding: 8px 20px 8px 20px;
+   
     width: 92px;
     height: 38px;
   text-align:center;
-border: 1px solid yellow;
+/* border: 1px solid yellow; */
 align-items: center;
-justify-content: center;
+justify-content:flex-start;
 border-radius: 46px;
 background: rgb(230, 83, 60);
 font-size: 18px;
-font-weight: 600;
-}
+font-weight: 600;}
+
 /* nav items */
 .nav-container{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     
 }
 .container-items1{
- border: 2px solid yellowgreen;
+ /* border: 2px solid yellowgreen; */
  width: 599.05px;
  height: 440px;
 
 }
 .container-items2{
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
+    width: 349px;
+height: 580px;
+}
+
+.container-items2 img{
     width: 349px;
 height: 580px;
 }
@@ -117,4 +124,125 @@ font-weight: 900;
 #btn-1{
    
 background: rgb(230, 83, 60);
+}
+/* main section  */
+
+main{
+    background: rgb(0, 0, 0);
+}
+.main-container-1{
+    width: 1044px;
+    height: 452px;
+    /* border: 3px solid mediumorchid; */
+    margin: 100px 198px 100px 198px;
+text-align: center;
+/* background-color: aquamarine; */
+}
+.main-header-1{
+    width: 671px;
+height: 120px;
+/* border: 1px solid yellow; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0px 186.5px 0px 186.5px;
+}
+#main-p{
+    font-size: 14px;
+font-weight: 400;
+}
+#main-h3{
+    /* border:1px solid mediumorchid; */
+    margin: 0px 97.5px 14px 97.5px;
+    width: 476px;
+height: 58px;
+    font-size: 48px;
+font-weight: 700;
+}
+.image-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1044px;
+    height: 274px;
+    /* border: 2px solid hotpink; */
+}
+.images{
+    width: 231px;
+    height: 274px;
+    /* border: 1px solid khaki; */
+}
+.images img{
+    border-radius:90px;
+}
+.img-description{
+    font-size: 14px;
+font-weight: 400;
+}
+.img-head{
+    font-size: 18px;
+font-weight: 600;
+}
+/* main container 2 */
+.main-container-2{
+    /* border: 2px solid goldenrod; */
+    width: 1060px;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin:100px 190px 100px 190px;
+}
+.secion-2items{
+    display: flex;
+    flex-direction: row;
+   
+    /* border: 2px solid yellowgreen; */
+}
+.main-container-2 img{
+    width: 366px;
+height: 312px;
+border-radius: 18px;
+margin: 30px 32px 30px 32px ;
+/* border: 1px solid tomato; */
+}
+.sc-2-item{
+    width: 443px;
+height: 290px;
+/* border: 2px solid cadetblue; */
+margin: 40px 54px 40px 54px;
+}
+.main-container-2-head{
+   margin-top: 0px;
+height: 116px; 
+/* border: 1px solid thistle; */
+font-size: 48px;
+font-weight: 900;
+}
+.main-container-2-parag{
+   
+height: 72px; 
+/* border: 1px solid whitesmoke; */
+}
+.sec2{
+   width: 443px;
+height: 202px;
+}
+.sec-2-btn{
+   margin-top: 10px; 
+}
+/* bmi claculator */
+.bmi-head{
+    width: 671px;
+height: 120px;
+border: 1px solid yellow;
+margin: 88px 384.5px 88px 384px;
+}
+.bmi-container{
+    width: 1440px;
+height: 487px;
+border: 1px solid blueviolet;
+background: rgb(34, 34, 34);
 }
