@@ -1,0 +1,120 @@
+ /* font-import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  
+*{
+    
+}
+/* shared-conatiner */
+.btn-primary{
+    width: 224px;
+height: 54px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+   border-radius: 42px;
+   color:  rgb(255, 255, 255);
+    font-size: 18px;
+   font-weight: 600;; 
+margin-top: 28px;
+}
+
+/* header-section */
+nav{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    
+    width: 1440px;
+   
+height: 719px; 
+border: 2px solid yellowgreen;
+}
+a{
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+}
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1060px;
+    height: 46px;
+    border: 2px solid thistle;
+    margin: 57px 190px 30px 190px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+ 
+}
+.nav-header >.items{
+    width: 465px;
+    height: 46px;
+    display: flex;
+flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+   color: rgb(255, 255, 255);
+    border: 1px solid salmon ;
+}
+#aa{
+    color: rgb(230, 83, 60);
+    width: 132px;
+    height: 43px;
+font-size: 36px;
+font-weight: 800;
+}
+#bb{
+    padding: 8px 20px 8px 20px;
+    width: 92px;
+    height: 38px;
+  text-align:center;
+border: 1px solid yellow;
+align-items: center;
+justify-content: center;
+border-radius: 46px;
+background: rgb(230, 83, 60);
+font-size: 18px;
+font-weight: 600;
+}
+/* nav items */
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 2px solid blueviolet;
+    
+}
+.container-items1{
+ border: 2px solid yellowgreen;
+ width: 599.05px;
+ height: 440px;
+
+}
+.container-items2{
+    border: 2px solid goldenrod;
+    width: 349px;
+height: 580px;
+}
+
+#cc{
+    
+}
+.nav-description{
+    width: 520px;
+    height: 58px;   
+    /* border: 3px solid maroon; */
+
+color: rgba(255, 255, 255, 0.5);
+}
+h2{
+    width: 520px;
+    height: 282px;
+    /* border: 5px solid black; */
+    color: rgb(255, 255, 255);
+font-size: 78px;
+font-weight: 900; 
+}
+#btn-1{
+   
+background: rgb(230, 83, 60);
+}
