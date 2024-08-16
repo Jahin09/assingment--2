@@ -9,15 +9,17 @@
 <body>
    <header>
 <nav>
-<section class="nav-header">
- 
+<section class="header">
+ <div class="nav-header">
     <a id="aa" href="">Fitness</a>
+    
  
     <div class="items">
 <a id="bb" href="">Home</a>
 <a href="">Service</a>
 <a href="">Contact</a>
 <a href="">About</a>
+</div>
 </div>
 </section>
 <section class="nav-container">
@@ -105,13 +107,63 @@
 
     </div>
     <div class="bmi-container">
-        <h1>BMI Calculator Chart </h2>
-         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-         </ul>
+      
+     <div class="bmi-items">
+        
+        <table class="bmi-chart">
+        
+         <thead>
+             
+              <tr>
+                <th >BMI  </th>
+                <th>Wight Loss</th>
+              </tr>
+             
+            </thead>
+            <tbody>
+              <tr>
+                <td>Below 18.5 </td>
+                <td>Underweight </td>
+                
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+              <td>30.0 - and Above</td>
+              <td>Obese </td>
+              </tr>
+            </tbody>
+           </table>
+          
+      </div>
+      <div class="bmi-calculator-sec">
+  <h1>Calculate your BMI</h1>
+  <p>You can calculate your BMI here..Give your information</p>
+  <div class="cal-btn-sec">
+ <input type="number" name="" id="" placeholder="Height/cm">
+<input type="number" name="" id="" placeholder="Weight/kg">
+<input type="number" name="" id="" placeholder="Age">
+<select name="Gender" id=""  >
+  <option value="disabled selected">Sex</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Others">Others</option>
+</select>
+<select name="" id="">
+  <option value="disabled selected"> Select an activity factor</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+
+  </div>
+      </div>
     </div>
 
   </section>
